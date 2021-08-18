@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WRKDIR='/home/openweb/gitpullproject'
+WRKDIR='<Enter backup folder location>'
 
 find $WRKDIR -type d -name .git -exec dirname {} \; | while read loca
 
